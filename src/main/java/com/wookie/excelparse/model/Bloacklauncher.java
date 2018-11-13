@@ -11,6 +11,18 @@ public class Bloacklauncher {
     String appleLink;
     String googleLink;
 
+    public Bloacklauncher() {
+    }
+
+    public Bloacklauncher(String name, String type, String appleUrl, String googleUrl, String appleLink, String googleLink) {
+        this.name = name;
+        this.type = type;
+        this.appleUrl = appleUrl;
+        this.googleUrl = googleUrl;
+        this.appleLink = appleLink;
+        this.googleLink = googleLink;
+    }
+
     public String getName() {
         return name;
     }
